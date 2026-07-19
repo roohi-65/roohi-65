@@ -1,0 +1,32 @@
+name: Daily TIL Log
+
+on:
+  schedule:
+    # Runs every day at 18:00 UTC (adjust to your timezone if you like)
+    - cron: '0 18 * * *'
+  workflow_dispatch: # lets you also trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  log-entry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Add today's log entry
+        run: |
+          TODAY=$(date +"%Y-%m-%d")
+          echo "" >> TIL.md
+          echo "## $TODAY" >> TIL.md
+          echo "- 📌 *What did you learn or work on today? Edit this entry.*" >> TIL.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add TIL.md
+          git commit -m "Daily log: $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+          git push
