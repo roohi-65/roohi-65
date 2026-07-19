@@ -36,6 +36,22 @@ BSc IT Undergraduate | Aspiring Software Engineer | Full Stack & Data Analytics
 
 ---
 
+## 🎓 Education & Certifications
+
+**Education**
+- BSc (Hons) in Information Technology — University of Vavuniya, Sri Lanka *(in progress)*
+
+**Courses & Certifications**
+- CS50: Introduction to Computer Science — Harvard University *(in progress)*
+- Front-End Web Development — University of Moratuwa, Open Learning
+- Python for Web Development — University of Moratuwa, Open Learning
+- Advanced Certificate in Computer Components and Applications — ITDLH
+- Cybersecurity — ABDI
+- C# — SoloLearn
+- Java — SoloLearn
+
+---
+
 ## 💻 Tech Stack
 
 **Languages**
@@ -49,10 +65,10 @@ BSc IT Undergraduate | Aspiring Software Engineer | Full Stack & Data Analytics
 **Frameworks & Technologies**
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=nodejs,express,bootstrap,jquery,mongodb,mysql"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,angular,bootstrap,jquery,mongodb,mysql"/>
 </p>
 
-`Node.js` `Express.js` `Bootstrap` `jQuery` `Mongoose` `REST APIs`
+`Node.js` `Express.js` `Angular` `Bootstrap` `jQuery` `Mongoose` `REST APIs`
 
 **Tools & Platforms**
 
