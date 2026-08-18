@@ -92,3 +92,6 @@ A running log of things I'm learning day to day — small notes, new concepts, u
 
 ## 2026-08-17
 - 📌 *What did you learn or work on today? Edit this entry.*
+
+## 2026-08-18
+- 📌 *What did you learn or work on today? Edit this entry.*
